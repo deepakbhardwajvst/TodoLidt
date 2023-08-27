@@ -1,0 +1,29 @@
+.head {
+  color: #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin: 2rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.nav {
+  margin: 0.7rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+a {
+  margin-left: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ccc;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+}
+a:hover {
+  text-decoration: underline;
+}

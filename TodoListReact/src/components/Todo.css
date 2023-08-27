@@ -1,0 +1,29 @@
+.todo {
+  margin-top: 1rem;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+.todo-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.todo-title p {
+  font-size: 1.2rem;
+}
+.todo-title input[type="checkbox"] {
+  height: 32px;
+  width: 32px;
+  accent-color: #fff;
+}
+.cross-btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+  float: right;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
